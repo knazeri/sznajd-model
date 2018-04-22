@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+results
+*.sln
+*.vcxproj
