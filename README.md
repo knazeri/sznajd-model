@@ -12,6 +12,10 @@ The effect of social media is considered toward +1 opinion; in other words, at e
 Schematic representation of two-dimensional Sznajd model with an external field is illustrated below:
 <p align='center'>  
   <img src='img/2d_social.png' width='361' height='295' />
+  <br />
+  A panel of (2 × 2) spins inﬂuence neighboring spins denoted by dots (top) 
+  <br />
+  Each agents independently of the others is inﬂuenced by the social media (bottom)
 </p>
 
 For simplicity we assume that all agents are exposed uniformly to the social media and visualize the effect of social media on the social opinions of the system to see how opinions are formed in time. The `-1` and `+1` states of agents are visualized with `red` and `blue` colors respectively. It can be seen that *United we Stand Divided we Fall* nature of Sznajd model causes agents with the same opinion to form clusters to survive.
