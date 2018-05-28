@@ -14,10 +14,15 @@ Schematic representation of two-dimensional Sznajd model with an external field 
   <img src='img/2d_social.png' width='361' height='295' />
 </p>
 
-For simplicity we assume that all agents are exposed uniformly to the social media and visualize the effect of social media on the social opinions of the system to see how opinions are formed in time. The `-1` and `+1` states of agents are visualized with `red` and `blue` colors respectively. It can be seen that *United we Stand Divided we Fall* nature of Sznajd model causes agents with the same opinion to form clusters to survive:
+For simplicity we assume that all agents are exposed uniformly to the social media and visualize the effect of social media on the social opinions of the system to see how opinions are formed in time. The `-1` and `+1` states of agents are visualized with `red` and `blue` colors respectively. It can be seen that *United we Stand Divided we Fall* nature of Sznajd model causes agents with the same opinion to form clusters to survive.
+
+Dynamic evolution of two-dimensional Sznajd model on a lattice of `L=100` with initial concentration of up spins `0.5` and external force `P=0.1` at different time-steps is shown here. `t = 0 (1)`, `t = 100 (2)`, `t = 1000 (3)`, `t = 2000 (4)` where one time-step is equal to `1e4` Monte Carlo steps. Blue and Red agents represent `yes (1)` and `no (-1)` opinions respectively. Visualization is performed in *Visual Molecular Dynamics (VMD)* software package:
 <p align='center'>  
   <img src='img/vmd.jpg' width='600' height='152' />
+  <br />
+  Dynamic evolution of two-dimensional Sznajd model at different time-steps
 </p>
+
 
 ## Citation
 If you use this code for your research, please cite our paper <a href="https://arxiv.org/abs/1805.08310">Effect of Social Media on Opinion Formation</a>:
