@@ -1,6 +1,24 @@
 # Effect of Social Media on Opinion Formation
 In this simulation we investigate the effect of social media on the process of opinion formation in a human population. This effect is modeled as an external field in the dynamics of the two-dimensional *Sznajd model* with a probability `P` for an agent to follow the social media. We investigate the evolution of magnetization, the distribution of decision time and the average relaxation time in the presence of the external field.
 
+## Prerequisites
+- Linux
+- Python 3
+- C++ compiler (e.g. g++)
+
+## Installation & Run
+- Clone this repo:
+```bash
+git clone https://github.com/KamyarNazeri/sznajd-model.git
+cd sznajd-model/src
+```
+- Compile and execute the C++ code:
+```bash
+g++ *.cpp -std=gnu++11 -o output
+./output
+```
+Results and data-files are being saved in the `results` directory.
+
 ## Method
 We consider two-dimensional Sznajd model on a square lattice of size **L** and periodic boundary condition with `N = L × L` agents and Ising spins of `±1` for each site. We model the effect of social media as an external filed applied on each site uniformly. The following rules governs our model:
 * In each step a `2 × 2` panel is randomly selected.
